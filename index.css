@@ -5,12 +5,10 @@ background-image: url('./img/Banner\ Image.png');
 background-repeat: no-repeat;
 background-size: contain;
 padding: 7%;
-margin-left: 80px;
+margin-left: 90px;
 margin-top: 40px;
 /* filter: brightness(70%); */
-
 }
-
 .banner-div{
     margin-right: 150px;
 text-align: center;
@@ -42,22 +40,25 @@ main{
     
     margin-top: 5%;
 text-align: center;
-
 }
 
+
 .main-bold-title{
+    line-height: 40px;
     color: red;
 font-size: 70px;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
 .main-small-title{
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
    color: red; 
+   font-size: 22px;
 }
 
 .main-title{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-font-size:35px ;
+font-size:42px ;
 color: black;
 
 }
@@ -67,17 +68,26 @@ max-width: 45%;
     
 }
 
-/* /* first-section  */
+/* first-section  */
+
 
 .first-section{
+    display: flex;
 margin-top: 10%;
 background-image: url('img/Vectorrr.png');
 margin-left:80px ;
 background-repeat: no-repeat;
 background-size: contain;
-padding: 7%;
+padding: 4%;
+margin-bottom: 90px;
 
 }
+.banner-section-img{
+
+    max-width: 80%;
+margin-left: 50%;
+}
+
 
 .banner-section{
     margin-left: 10px;
@@ -104,4 +114,305 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
 text-decoration: none;
 font-size: 20px;
 text-shadow: 4px 2px 1px  black;
+}
+
+/* secand-section */
+
+.secand-section{
+background-color: rgba(255, 218, 218, 0.526);
+margin: 0px 80px;
+padding: 60px;
+border-radius: 10px;
+}
+.right-numbr-title{
+
+color: red;
+
+}
+
+.secand-saction-text{
+    font-size: 35px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+line-height: 1.4;
+
+}
+
+.btn-perimary{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
+font-size: 17px;
+background-color: red;
+padding: 16px 30px;
+color: white;
+border-radius: 8px;
+border-style: none;
+}
+
+/* thard-section */
+
+.thard-section{
+margin-left: 90px;
+margin-top: 120px;
+margin-bottom: 120px;
+}
+.left-offar-title{
+margin-right: 80px;
+text-align: left;
+}
+.offar-section{
+display: flex;
+
+}
+
+.small-title{
+    line-height: 1.8;
+color: red;
+font-size: 20px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.big-title{
+    font-size: 45px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.small-big-title-discription{
+color: rgb(140, 140, 140);
+font-size: 20px;
+
+}
+
+.offar-center-img{
+    
+    
+}
+
+.right-img-title{
+text-align: left;
+margin-left: 90px;
+
+}
+.right-numbr-title{
+    line-height: 1.8;
+font-size: 40px;
+    color: red;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+
+.right-numbr-discription{
+
+    color: rgb(140, 140, 140);
+    font-size: 20px;  
+
+}
+
+/* four-section */
+
+.functional-banner{
+position: relative;
+top:90px;
+margin: 100px 50px;
+
+}
+.functional-banner-title-small{
+font-size: 23px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+
+}
+.functional-banner-title{
+font-size:60px ;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+.holiday{
+color: red;
+
+}
+.fivty{
+font-size: 70px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.functional-banner-discription{
+    position: relative;
+    bottom: 55px;
+    color: rgb(140, 140, 140);
+    font-size: 20px; 
+}
+
+.four-img-section{
+background-image: url('./img/Group\ 75.png') , url('./img/Rectangle\ 2.png') , url('./img/Rectangle\ 1.png');
+background-repeat: no-repeat;
+background-position:bottom left , bottom , bottom right;
+background-size: contain;
+padding: 70px;
+max-width: 900px;
+max-height: 600px;
+margin-left:100px;
+}
+.discount{
+    margin-left:150px ;
+}
+
+
+/* five-section */
+
+.five-section{
+
+    
+}
+
+.product-title{
+font-size: 40px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.GIFTS{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 20px;
+color: red;
+}
+
+.product-title-discription{
+    position: relative;
+    bottom: 45px;
+    color: rgb(140, 140, 140);
+    font-size: 20px; 
+}
+
+.product-img-text{
+margin-left: 100px;
+text-align: left;
+
+}
+
+.product-row-on , .product-row-tow{
+margin-left: 100px
+    display: flex;
+
+}
+.photo{
+    position: relative;
+margin: 7px;
+bottom: 40px;
+max-width: 328px;
+
+}
+
+/* mail-section */
+
+.mail-section{
+
+    background-color: rgba(255, 218, 218, 0.526);
+    margin: 0px 80px;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.mail-img{
+max-width: 95px;
+
+}
+
+.mail-section-title{
+
+font-family: Arial, Helvetica, sans-serif ;
+font-size: 35px;
+
+}
+
+.mail-section-discrioption{
+    color: rgb(140, 140, 140);
+    font-size: 20px; 
+
+}
+
+.email{
+padding: 20px 120px;
+border-radius: 25px; 
+border: none;
+
+
+}
+.button{
+
+    font-size: 15px;
+    color: white;
+background-color: red;
+padding: 20px 30px ;
+border-radius: 10px;
+border: none;
+
+}
+
+
+/* footer-section */
+
+
+footer{
+margin-top: 70px;
+background-color: black;
+padding: 5%;
+color: white;
+
+}
+
+.footer-top-section{
+gap: 600px;
+display: flex;
+text-align: center;
+border-bottom:3px solid rgba(104, 103, 103, 0.314);
+
+}
+
+.footer-top-left-title , .footer-top-right-title{
+line-height: 1.9;
+font-size: 17px;
+font-family:  Arial, Helvetica, sans-serif;
+width: 900;
+text-align: left;
+margin-bottom: 40px;
+
+}
+
+
+
+.footer-img{
+margin-left: 35%;
+letter-spacing: 12px;
+display: inline;
+max-width: -10%;
+
+}
+.footer-icon{
+    margin-top: 72px;
+ }
+
+
+
+.footer-bottom-text{
+    margin-top: 80px;
+gap: 700px;
+display: flex;
+border-top: 3px solid rgba(104, 103, 103, 0.263);
+
+}
+
+.footer-bottom-left-title{
+
+    line-height: 1.9;
+    font-size: 17px;
+    font-family:  Arial, Helvetica, sans-serif;
+    width: 900;
+    text-align: left;
+
+}
+
+.footer-bottom-right-title{
+
+    font-size: 17px;
+    font-family:  Arial, Helvetica, sans-serif;
+    width: 900;
+
 }
